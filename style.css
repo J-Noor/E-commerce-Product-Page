@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for mobile */
+
+nav{
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars{
+    width: 35px;
+}
+
+.curly-boy{
+    width: 28px;
+}
+
+.cart-1{
+    width: 25px;
+    margin-right: 8px;
+}
+
+/* hero starts */
+
+.product-img{
+    width: 100vw;
+    display: block;
+}
+
+.hero-details{
+    padding: 2rem;
+}
+
+.hero-details h1,h5,p{
+    padding: .5rem 0;
+}
+
+.hero-details h1{
+    font-weight: 800;
+}
+
+.hero-details h5{
+    color: #8C8E90;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.hero-details p{
+    color: #8C8E90;
+    line-height: 27px;
+}
+
+/* prices */
+
+.prices{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.real-prc{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.border p{
+    width: 45px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    right: 40px;
+}
+
+.del-prc{
+    color: #8C8E90;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.plus-minus{
+    width: 300px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 900;
+    background-color: #F6F8FC;
+    margin: 1rem auto;
+    border-radius: 10px;
+
+}
+
+.plus-minus .orange-color{
+    color: #EB8C45;
+}
+
+.plus-minus .black-color{
+    color: black;
+}
+
+.cart-btn{
+    width: 300px;
+    padding: 1rem 2rem;
+    background-color: #EB8C45;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1.3rem auto;
+    
+}
+
+.fa-cart-shopping{
+    position: relative;
+    left: 30px;
+}
+
+.cart-btn h6{
+    position: relative;
+    right: 20px;
+}
+
+/* for desktop */
+
+@media screen and (min-width:768px){
+    .hero{
+        display: flex;
+    }
+}
